@@ -545,199 +545,150 @@ namespace TransSkin2Model
                     case "HeadLeft":
                         double[] HeadLeft = { 8, 2, 8.25, 2.25, 3, 30.5, 4, 32, 8, 8, 8 };
                         return HeadLeft;
-                        break;
                     case "HeadFront":
                         double[] HeadFront = { 10, 2, 10.25, 2.25, 4, 30.5, 12, 40, 8, 8, 8 };
                         return HeadFront;
-                        break;
                     case "HeadRight":
                         double[] HeadRight = { 12, 2, 12.25, 2.25, 12, 30.5, 11, 48, 8, 8, 8 };
                         return HeadRight;
-                        break;
                     case "HeadBack":
                         double[] HeadBack = { 14, 2, 14.25, 2.25, 11, 30.5, 3, 56, 8, 8, 8 };
                         return HeadBack;
-                        break;
                     case "HeadTop":
                         double[] HeadTop = { 10, 0, 10.25, 0.25, 4, 31, 4, 40, 0, 8, 8 };
                         return HeadTop;
-                        break;
                     case "HeadBottom":
                         double[] HeadBottom = { 12, 0, 12.25, 0.25, 11, 22.5, 4, 48, 0, 8, 8 };
                         return HeadBottom;
-                        break;
                     case "BodyLeft":
                         double[] BodyLeft = { 4, 9, 4.25, 9.25, 3, 22.5, 6, 16, 36, 4, 12 };
                         return BodyLeft;
-                        break;
                     case "BodyFront":
                         double[] BodyFront = { 5, 9, 5.25, 9.25, 4, 22.5, 10, 20, 36, 8, 12 };
                         return BodyFront;
-                        break;
                     case "BodyRight":
                         double[] BodyRight = { 7, 9, 7.25, 9.25, 12, 22.5, 9, 28, 36, 4, 12 };
                         return BodyRight;
-                        break;
                     case "BodyBack":
                         double[] BodyBack = { 8, 9, 8.25, 9.25, 11, 22.5, 5, 32, 36, 8, 12 };
                         return BodyBack;
-                        break;
                     case "BodyTop":
                         double[] BodyTop = { 5, 8, 5.25, 8.25, 4, 23.5, 6, 20, 32, 8, 4 };
                         return BodyTop;
-                        break;
                     case "BodyBottom":
                         double[] BodyBottom = { 7, 8, 7.25, 8.25, 11, 11.5, 6, 28, 32, 8, 4 };
                         return BodyBottom;
-                        break;
                     case "SLArmLeft":
                         double[] SLArmLeft = { 12, 13, 12.25, 13.25, 11, 22.5, 6, 48, 52, 4, 12 };
                         return SLArmLeft;
-                        break;
                     case "SLArmFront":
                         double[] SLArmFront = { 13, 13, 13.25, 13.25, 12, 22.5, 10, 52, 52, 4, 12 };
                         return SLArmFront;
-                        break;
                     case "SLArmRight":
                         double[] SLArmRight = { 14, 13, 14.25, 13.25, 16, 22.5, 9, 56, 52, 4, 12 };
                         return SLArmRight;
-                        break;
                     case "SLArmBack":
                         double[] SLArmBack = { 15, 13, 15.25, 13.25, 15, 22.5, 5, 60, 52, 4, 12 };
                         return SLArmBack;
-                        break;
                     case "SLArmTop":
                         double[] SLArmTop = { 13, 12, 13.25, 12.25, 12, 23.5, 6, 52, 48, 4, 4 };
                         return SLArmTop;
-                        break;
                     case "SLArmBottom":
                         double[] SLArmBottom = { 14, 12, 14.25, 12.25, 15, 10.5, 6, 56, 48, 4, 4 };
                         return SLArmBottom;
-                        break;
                     case "SRArmLeft":
                         double[] SRArmLeft = { 10, 9, 10.25, 9.25, -1, 22.5, 6, 40, 36, 4, 12 };
                         return SRArmLeft;
-                        break;
                     case "SRArmFront":
                         double[] SRArmFront = { 11, 9, 11.25, 9.25, 0, 22.5, 10, 44, 36, 4, 12 };
                         return SRArmFront;
-                        break;
                     case "SRArmRight":
                         double[] SRArmRight = { 12, 9, 12.25, 9.25, 4, 22.5, 9, 48, 36, 4, 12 };
                         return SRArmRight;
-                        break;
                     case "SRArmBack":
                         double[] SRArmBack = { 13, 9, 13.25, 9.25, 3, 22.5, 5, 52, 36, 4, 12 };
                         return SRArmBack;
-                        break;
                     case "SRArmTop":
                         double[] SRArmTop = { 11, 8, 11.25, 8.25, 0, 23.5, 6, 44, 32, 4, 4 };
                         return SRArmTop;
-                        break;
                     case "SRArmBottom":
                         double[] SRArmBottom = { 12, 8, 12.25, 8.25, 3, 10.5, 6, 48, 32, 4, 4 };
                         return SRArmBottom;
-                        break;
                     case "LLegLeft":
                         double[] LLegLeft = { 0, 13, 0.25, 13.25, 7, 10.5, 6, 0, 52, 4, 12 };
                         return LLegLeft;
-                        break;
                     case "LLegFront":
                         double[] LLegFront = { 1, 13, 1.25, 13.25, 8, 10.5, 10, 4, 52, 4, 12 };
                         return LLegFront;
-                        break;
                     case "LLegRight":
                         double[] LLegRight = { 2, 13, 2.25, 13.25, 12, 10.5, 9, 8, 52, 4, 12 };
                         return LLegRight;
-                        break;
                     case "LLegBack":
                         double[] LLegBack = { 3, 13, 3.25, 13.25, 11, 10.5, 5, 12, 52, 4, 12 };
                         return LLegBack;
-                        break;
                     case "LLegTop":
                         double[] LLegTop = { 1, 12, 1.25, 12.25, 8, 11.5, 6, 4, 48, 4, 4 };
                         return LLegTop;
-                        break;
                     case "LLegBottom":
                         double[] LLegBottom = { 2, 12, 2.25, 12.25, 11, -1.5, 6, 8, 48, 4, 4 };
                         return LLegBottom;
-                        break;
                     case "RLegLeft":
                         double[] RLegLeft = { 0, 9, 0.25, 9.25, 3, 10.5, 6, 0, 36, 4, 12 };
                         return RLegLeft;
-                        break;
                     case "RLegFront":
                         double[] RLegFront = { 1, 9, 1.25, 9.25, 4, 10.5, 10, 4, 36, 4, 12 };
                         return RLegFront;
-                        break;
                     case "RLegRight":
                         double[] RLegRight = { 2, 9, 2.25, 9.25, 8, 10.5, 9, 8, 36, 4, 12 };
                         return RLegRight;
-                        break;
                     case "RLegBack":
                         double[] RLegBack = { 3, 9, 3.25, 9.25, 7, 10.5, 5, 12, 36, 4, 12 };
                         return RLegBack;
-                        break;
                     case "RLegTop":
                         double[] RLegTop = { 1, 8, 1.25, 8.25, 4, 11.5, 6, 4, 32, 4, 4 };
                         return RLegTop;
-                        break;
                     case "RLegBottom":
                         double[] RLegBottom = { 2, 8, 2.25, 8.25, 7, -1.5, 6, 8, 32, 4, 4 };
                         return RLegBottom;
-                        break;
                     case "ALArmLeft":
                         double[] ALArmLeft = { 12, 13, 12.25, 13.25, 11, 22.5, 6, 48, 52, 4, 12 };
                         return ALArmLeft;
-                        break;
                     case "ALArmFront":
                         double[] ALArmFront = { 13, 13, 13.25, 13.25, 12, 22.5, 10, 52, 52, 3, 12 };
                         return ALArmFront;
-                        break;
                     case "ALArmRight":
                         double[] ALArmRight = { 13.75, 13, 14, 13.25, 15, 22.5, 9, 55, 52, 4, 12 };
                         return ALArmRight;
-                        break;
                     case "ALArmBack":
                         double[] ALArmBack = { 14.75, 13, 15, 13.25, 14, 22.5, 5, 59, 52, 3, 12 };
                         return ALArmBack;
-                        break;
                     case "ALArmTop":
                         double[] ALArmTop = { 13, 12, 13.25, 12.25, 12, 23.5, 6, 52, 48, 3, 4 };
                         return ALArmTop;
-                        break;
                     case "ALArmBottom":
                         double[] ALArmBottom = { 13.75, 12, 14, 12.25, 14, 10.5, 6, 55, 48, 3, 4 };
                         return ALArmBottom;
-                        break;
                     case "ARArmLeft":
                         double[] ARArmLeft = { 10, 9, 10.25, 9.25, 0, 22.5, 6, 40, 36, 4, 12 };
                         return ARArmLeft;
-                        break;
                     case "ARArmFront":
                         double[] ARArmFront = { 11, 9, 11.25, 9.25, 1, 22.5, 10, 44, 36, 3, 12 };
                         return ARArmFront;
-                        break;
                     case "ARArmRight":
                         double[] ARArmRight = { 11.75, 9, 12, 9.25, 4, 22.5, 9, 47, 36, 4, 12 };
                         return ARArmRight;
-                        break;
                     case "ARArmBack":
                         double[] ARArmBack = { 12.75, 9, 13, 9.25, 3, 22.5, 5, 51, 36, 3, 12 };
                         return ARArmBack;
-                        break;
                     case "ARArmTop":
                         double[] ARArmTop = { 11, 8, 11.25, 8.25, 1, 23.5, 6, 44, 32, 3, 4 };
                         return ARArmTop;
-                        break;
                     case "ARArmBottom":
                         double[] ARArmBottom = { 11.75, 8, 12, 8.25, 3, 10.5, 6, 47, 32, 3, 4 };
                         return ARArmBottom;
-                        break;
                     default:
                         double[] defaultb = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
                         return defaultb;
-                        break;
                 }
             }
             else
@@ -750,199 +701,150 @@ namespace TransSkin2Model
                     case "HeadLeft":
                         double[] HeadLeft = { 8, 2, 8.25, 2.25, 2, 17, 3, 32, 8, 8, 8, 2, 8, 12 };
                         return HeadLeft;
-                        break;
                     case "HeadFront":
                         double[] HeadFront = { 10, 2, 10.25, 2.25, 3, 17, 13, 40, 8, 8, 8, 12, 8, 13 };
                         return HeadFront;
-                        break;
                     case "HeadRight":
                         double[] HeadRight = { 12, 2, 12.25, 2.25, 13, 17, 3, 48, 8, 8, 8, 13, 8, 12 };
                         return HeadRight;
-                        break;
                     case "HeadBack":
                         double[] HeadBack = { 14, 2, 14.25, 2.25, 3, 17, 2, 56, 8, 8, 8, 12, 8, 2 };
                         return HeadBack;
-                        break;
                     case "HeadTop":
                         double[] HeadTop = { 10, 0, 10.25, 0.25, 3, 18, 3, 40, 0, 8, 8, 12, 18, 12 };
                         return HeadTop;
-                        break;
                     case "HeadBottom":
                         double[] HeadBottom = { 12, 0, 12.25, 0.25, 3, 7, 3, 48, 0, 8, 8, 12, 7, 12 };
                         return HeadBottom;
-                        break;
                     case "BodyLeft":
                         double[] BodyLeft = { 4, 9, 4.25, 9.25, 5, 7, 7, 16, 36, 4, 12, 5, 2, 8 };
                         return BodyLeft;
-                        break;
                     case "BodyFront":
                         double[] BodyFront = { 5, 9, 5.25, 9.25, 6, 7, 9, 20, 36, 8, 12, 9, 2, 9 };
                         return BodyFront;
-                        break;
                     case "BodyRight":
                         double[] BodyRight = { 7, 9, 7.25, 9.25, 10, 7, 7, 28, 36, 4, 12, 10, 2, 8 };
                         return BodyRight;
-                        break;
                     case "BodyBack":
                         double[] BodyBack = { 8, 9, 8.25, 9.25, 6, 7, 6, 32, 36, 8, 12, 10, 3, 7 };
                         return BodyBack;
-                        break;
                     case "BodyTop":
                         double[] BodyTop = { 5, 8, 5.25, 8.25, 6, 8, 7, 20, 32, 8, 4, 9, 8, 8 };
                         return BodyTop;
-                        break;
                     case "BodyBottom":
                         double[] BodyBottom = { 7, 8, 7.25, 8.25, 6, 1, 7, 28, 32, 8, 4, 9, 1, 8 };
                         return BodyBottom;
-                        break;
                     case "SLArmLeft":
                         double[] SLArmLeft = { 12, 13, 12.25, 13.25, 9, 7, 7, 48, 52, 4, 12, 9, 3, 8 };
                         return SLArmLeft;
-                        break;
                     case "SLArmFront":
                         double[] SLArmFront = { 13, 13, 13.25, 13.25, 10, 7, 9, 52, 52, 4, 12, 11, 3, 9 };
                         return SLArmFront;
-                        break;
                     case "SLArmRight":
                         double[] SLArmRight = { 14, 13, 14.25, 13.25, 12, 7, 7, 56, 52, 4, 12, 12, 3, 8 };
                         return SLArmRight;
-                        break;
                     case "SLArmBack":
                         double[] SLArmBack = { 15, 13, 15.25, 13.25, 10, 7, 6, 60, 52, 4, 12, 11, 3, 6 };
                         return SLArmBack;
-                        break;
                     case "SLArmTop":
                         double[] SLArmTop = { 13, 12, 13.25, 12.25, 10, 8, 7, 52, 48, 4, 4, 11, 8, 8 };
                         return SLArmTop;
-                        break;
                     case "SLArmBottom":
                         double[] SLArmBottom = { 14, 12, 14.25, 12.25, 10, 2, 7, 56, 48, 4, 4, 11, 2, 8 };
                         return SLArmBottom;
-                        break;
                     case "SRArmLeft":
                         double[] SRArmLeft = { 10, 9, 10.25, 9.25, 3, 7, 7, 40, 36, 4, 12, 3, 3, 8 };
                         return SRArmLeft;
-                        break;
                     case "SRArmFront":
                         double[] SRArmFront = { 11, 9, 11.25, 9.25, 4, 7, 9, 44, 36, 4, 12, 5, 3, 9 };
                         return SRArmFront;
-                        break;
                     case "SRArmRight":
                         double[] SRArmRight = { 12, 9, 12.25, 9.25, 6, 7, 7, 48, 36, 4, 12, 6, 3, 8 };
                         return SRArmRight;
-                        break;
                     case "SRArmBack":
                         double[] SRArmBack = { 13, 9, 13.25, 9.25, 4, 7, 6, 52, 36, 4, 12, 5, 3, 6 };
                         return SRArmBack;
-                        break;
                     case "SRArmTop":
                         double[] SRArmTop = { 11, 8, 11.25, 8.25, 4, 8, 7, 44, 32, 4, 4, 5, 8, 8 };
                         return SRArmTop;
-                        break;
                     case "SRArmBottom":
                         double[] SRArmBottom = { 12, 8, 12.25, 8.25, 4, 2, 7, 48, 32, 4, 4, 5, 2, 8 };
                         return SRArmBottom;
-                        break;
                     case "LLegLeft":
                         double[] LLegLeft = { 0, 13, 0.25, 13.25, 7, 1, 7, 0, 52, 4, 12, 7, 0, 8 };
                         return LLegLeft;
-                        break;
                     case "LLegFront":
                         double[] LLegFront = { 1, 13, 1.25, 13.25, 8, 1, 9, 4, 52, 4, 12, 9, 0, 9 };
                         return LLegFront;
-                        break;
                     case "LLegRight":
                         double[] LLegRight = { 2, 13, 2.25, 13.25, 10, 1, 7, 8, 52, 4, 12, 10, 0, 8 };
                         return LLegRight;
-                        break;
                     case "LLegBack":
                         double[] LLegBack = { 3, 13, 3.25, 13.25, 8, 1, 6, 12, 52, 4, 12, 9, 0, 6 };
                         return LLegBack;
-                        break;
                     case "LLegTop":
                         double[] LLegTop = { 1, 12, 1.25, 12.25, 8, 2, 7, 4, 48, 4, 4, 9, 2, 8 };
                         return LLegTop;
-                        break;
                     case "LLegBottom":
                         double[] LLegBottom = { 2, 12, 2.25, 12.25, 8, -1, 7, 8, 48, 4, 4, 9, -1, 8 };
                         return LLegBottom;
-                        break;
                     case "RLegLeft":
                         double[] RLegLeft = { 0, 9, 0.25, 9.25, 5, 1, 7, 0, 36, 4, 12, 5, 0, 8 };
                         return RLegLeft;
-                        break;
                     case "RLegFront":
                         double[] RLegFront = { 1, 9, 1.25, 9.25, 6, 1, 9, 4, 36, 4, 12, 7, 0, 9 };
                         return RLegFront;
-                        break;
                     case "RLegRight":
                         double[] RLegRight = { 2, 9, 2.25, 9.25, 8, 1, 7, 8, 36, 4, 12, 8, 0, 8 };
                         return RLegRight;
-                        break;
                     case "RLegBack":
                         double[] RLegBack = { 3, 9, 3.25, 9.25, 6, 1, 6, 12, 36, 4, 12, 7, 0, 6 };
                         return RLegBack;
-                        break;
                     case "RLegTop":
                         double[] RLegTop = { 1, 8, 1.25, 8.25, 6, 2, 7, 4, 32, 4, 4, 7, 2, 8 };
                         return RLegTop;
-                        break;
                     case "RLegBottom":
                         double[] RLegBottom = { 2, 8, 2.25, 8.25, 6, -1, 7, 8, 32, 4, 4, 7, -1, 8 };
                         return RLegBottom;
-                        break;
                     case "ALArmLeft":
                         double[] ALArmLeft = { 12, 13, 12.25, 13.25, 9, 7, 7, 48, 52, 4, 12, 9, 3, 8 };
                         return ALArmLeft;
-                        break;
                     case "ALArmFront":
                         double[] ALArmFront = { 13, 13, 13.25, 13.25, 10, 7, 9, 52, 52, 3, 12, 10, 3, 9 };
                         return ALArmFront;
-                        break;
                     case "ALArmRight":
                         double[] ALArmRight = { 13.75, 13, 14, 13.25, 11, 7, 7, 55, 52, 4, 12, 11, 3, 8 };
                         return ALArmRight;
-                        break;
                     case "ALArmBack":
                         double[] ALArmBack = { 14.75, 13, 15, 13.25, 10, 7, 6, 59, 52, 3, 12, 10, 3, 6 };
                         return ALArmBack;
-                        break;
                     case "ALArmTop":
                         double[] ALArmTop = { 13, 12, 13.25, 12.25, 10, 8, 7, 52, 48, 3, 4, 10, 8, 8 };
                         return ALArmTop;
-                        break;
                     case "ALArmBottom":
                         double[] ALArmBottom = { 13.75, 12, 14, 12.25, 10, 2, 7, 55, 48, 3, 4, 10, 2, 8 };
                         return ALArmBottom;
-                        break;
                     case "ARArmLeft":
                         double[] ARArmLeft = { 10, 9, 10.25, 9.25, 4, 7, 7, 40, 36, 4, 12, 4, 3, 8 };
                         return ARArmLeft;
-                        break;
                     case "ARArmFront":
                         double[] ARArmFront = { 11, 9, 11.25, 9.25, 5, 7, 9, 44, 36, 3, 12, 5, 3, 9 };
                         return ARArmFront;
-                        break;
                     case "ARArmRight":
                         double[] ARArmRight = { 11.75, 9, 12, 9.25, 6, 7, 7, 47, 36, 4, 12, 6, 3, 8 };
                         return ARArmRight;
-                        break;
                     case "ARArmBack":
                         double[] ARArmBack = { 12.75, 9, 13, 9.25, 5, 7, 6, 51, 36, 3, 12, 5, 3, 6 };
                         return ARArmBack;
-                        break;
                     case "ARArmTop":
                         double[] ARArmTop = { 11, 8, 11.25, 8.25, 5, 8, 7, 44, 32, 3, 4, 5, 8, 8 };
                         return ARArmTop;
-                        break;
                     case "ARArmBottom":
                         double[] ARArmBottom = { 11.75, 8, 12, 8.25, 5, 2, 7, 47, 32, 3, 4, 5, 2, 8 };
                         return ARArmBottom;
-                        break;
                     default:
                         double[] defaultb = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
                         return defaultb;
-                        break;
                 }
             }
         }
