@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="blockstats_MiniNor" xml:space="preserve">
+    <value>{
+    "variants": {
+        "facing=east,half=bottom,shape=straight":  { "model": "sandstone_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=straight":  { "model": "sandstone_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=straight": { "model": "sandstone_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=straight": { "model": "sandstone_stairs" },
+
+        "facing=east,half=bottom,shape=outer_right":  { "model": "sandstone_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_right":  { "model": "sandstone_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_right": { "model": "sandstone_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_right": { "model": "sandstone_outer_stairs" },
+
+        "facing=east,half=bottom,shape=outer_left":  { "model": "sandstone_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_left":  { "model": "sandstone_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_left": { "model": "sandstone_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_left": { "model": "sandstone_outer_stairs" },
+
+        "facing=east,half=bottom,shape=inner_right":  { "model": "sandstone_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_right":  { "model": "sandstone_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_right": { "model": "sandstone_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_right": { "model": "sandstone_inner_stairs" },
+
+        "facing=east,half=bottom,shape=inner_left":  { "model": "sandstone_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_left":  { "model": "sandstone_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_left": { "model": "sandstone_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_left": { "model": "sandstone_inner_stairs" },
+
+        "facing=east,half=top,shape=straight":  { "model": "sandstone_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=straight":  { "model": "sandstone_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=straight": { "model": "sandstone_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=straight": { "model": "sandstone_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_right":  { "model": "sandstone_outer_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=outer_right":  { "model": "sandstone_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_right": { "model": "sandstone_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_right": { "model": "sandstone_outer_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_left":  { "model": "sandstone_outer_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=outer_left":  { "model": "sandstone_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_left": { "model": "sandstone_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_left": { "model": "sandstone_outer_stairs", "x": 180, "uvlock": false },
+
+        "facing=east,half=top,shape=inner_right":  { "model": "sandstone_inner_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=inner_right":  { "model": "sandstone_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_right": { "model": "sandstone_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_right": { "model": "sandstone_inner_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=inner_left":  { "model": "sandstone_inner_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=inner_left":  { "model": "sandstone_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_left": { "model": "sandstone_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_left": { "model": "sandstone_inner_stairs", "x": 180, "uvlock": false }
+    }
+}</value>
+  </data>
+  <data name="blockstats_MiniSin" xml:space="preserve">
+    <value>{
+    "variants": {
+        "facing=east,half=bottom,shape=straight":  { "model": "jungle_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=straight":  { "model": "jungle_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=straight": { "model": "jungle_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=straight": { "model": "jungle_stairs" },
+
+        "facing=east,half=bottom,shape=outer_right":  { "model": "jungle_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_right":  { "model": "jungle_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_right": { "model": "jungle_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_right": { "model": "jungle_outer_stairs" },
+
+        "facing=east,half=bottom,shape=outer_left":  { "model": "jungle_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_left":  { "model": "jungle_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_left": { "model": "jungle_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_left": { "model": "jungle_outer_stairs" },
+
+        "facing=east,half=bottom,shape=inner_right":  { "model": "jungle_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_right":  { "model": "jungle_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_right": { "model": "jungle_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_right": { "model": "jungle_inner_stairs" },
+
+        "facing=east,half=bottom,shape=inner_left":  { "model": "jungle_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_left":  { "model": "jungle_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_left": { "model": "jungle_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_left": { "model": "jungle_inner_stairs" },
+
+        "facing=east,half=top,shape=straight":  { "model": "jungle_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=straight":  { "model": "jungle_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=straight": { "model": "jungle_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=straight": { "model": "jungle_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_right":  { "model": "jungle_outer_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=outer_right":  { "model": "jungle_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_right": { "model": "jungle_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_right": { "model": "jungle_outer_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_left":  { "model": "jungle_outer_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=outer_left":  { "model": "jungle_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_left": { "model": "jungle_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_left": { "model": "jungle_outer_stairs", "x": 180, "uvlock": false },
+
+        "facing=east,half=top,shape=inner_right":  { "model": "jungle_inner_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=inner_right":  { "model": "jungle_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_right": { "model": "jungle_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_right": { "model": "jungle_inner_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=inner_left":  { "model": "jungle_inner_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=inner_left":  { "model": "jungle_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_left": { "model": "jungle_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_left": { "model": "jungle_inner_stairs", "x": 180, "uvlock": false }
+    }
+}</value>
+  </data>
+  <data name="blockstats_Nor" xml:space="preserve">
+    <value>{
+    "variants": {
+        "facing=east,half=bottom,shape=straight":  { "model": "spruce_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=straight":  { "model": "spruce_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=straight": { "model": "spruce_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=straight": { "model": "spruce_stairs" },
+
+        "facing=east,half=bottom,shape=outer_right":  { "model": "spruce_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_right":  { "model": "spruce_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_right": { "model": "spruce_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_right": { "model": "spruce_outer_stairs" },
+
+        "facing=east,half=bottom,shape=outer_left":  { "model": "spruce_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_left":  { "model": "spruce_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_left": { "model": "spruce_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_left": { "model": "spruce_outer_stairs" },
+
+        "facing=east,half=bottom,shape=inner_right":  { "model": "spruce_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_right":  { "model": "spruce_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_right": { "model": "spruce_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_right": { "model": "spruce_inner_stairs" },
+
+        "facing=east,half=bottom,shape=inner_left":  { "model": "spruce_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_left":  { "model": "spruce_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_left": { "model": "spruce_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_left": { "model": "spruce_inner_stairs" },
+
+        "facing=east,half=top,shape=straight":  { "model": "spruce_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=straight":  { "model": "spruce_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=straight": { "model": "spruce_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=straight": { "model": "spruce_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_right":  { "model": "spruce_outer_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=outer_right":  { "model": "spruce_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_right": { "model": "spruce_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_right": { "model": "spruce_outer_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_left":  { "model": "spruce_outer_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=outer_left":  { "model": "spruce_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_left": { "model": "spruce_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_left": { "model": "spruce_outer_stairs", "x": 180, "uvlock": false },
+
+        "facing=east,half=top,shape=inner_right":  { "model": "spruce_inner_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=inner_right":  { "model": "spruce_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_right": { "model": "spruce_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_right": { "model": "spruce_inner_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=inner_left":  { "model": "spruce_inner_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=inner_left":  { "model": "spruce_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_left": { "model": "spruce_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_left": { "model": "spruce_inner_stairs", "x": 180, "uvlock": false }
+    }
+}</value>
+  </data>
+  <data name="blockstats_Sin" xml:space="preserve">
+    <value>{
+    "variants": {
+        "facing=east,half=bottom,shape=straight":  { "model": "birch_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=straight":  { "model": "birch_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=straight": { "model": "birch_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=straight": { "model": "birch_stairs" },
+
+        "facing=east,half=bottom,shape=outer_right":  { "model": "birch_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_right":  { "model": "birch_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_right": { "model": "birch_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_right": { "model": "birch_outer_stairs" },
+
+        "facing=east,half=bottom,shape=outer_left":  { "model": "birch_outer_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=outer_left":  { "model": "birch_outer_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=outer_left": { "model": "birch_outer_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=outer_left": { "model": "birch_outer_stairs" },
+
+        "facing=east,half=bottom,shape=inner_right":  { "model": "birch_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_right":  { "model": "birch_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_right": { "model": "birch_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_right": { "model": "birch_inner_stairs" },
+
+        "facing=east,half=bottom,shape=inner_left":  { "model": "birch_inner_stairs", "y": 90, "uvlock": false },
+        "facing=west,half=bottom,shape=inner_left":  { "model": "birch_inner_stairs", "y": 270, "uvlock": false },
+        "facing=south,half=bottom,shape=inner_left": { "model": "birch_inner_stairs", "y": 180, "uvlock": false },
+        "facing=north,half=bottom,shape=inner_left": { "model": "birch_inner_stairs" },
+
+        "facing=east,half=top,shape=straight":  { "model": "birch_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=straight":  { "model": "birch_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=straight": { "model": "birch_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=straight": { "model": "birch_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_right":  { "model": "birch_outer_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=outer_right":  { "model": "birch_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_right": { "model": "birch_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_right": { "model": "birch_outer_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=outer_left":  { "model": "birch_outer_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=outer_left":  { "model": "birch_outer_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=outer_left": { "model": "birch_outer_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=outer_left": { "model": "birch_outer_stairs", "x": 180, "uvlock": false },
+
+        "facing=east,half=top,shape=inner_right":  { "model": "birch_inner_stairs", "x": 180, "uvlock": false },
+        "facing=west,half=top,shape=inner_right":  { "model": "birch_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_right": { "model": "birch_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_right": { "model": "birch_inner_stairs", "x": 180 },
+
+        "facing=east,half=top,shape=inner_left":  { "model": "birch_inner_stairs", "x": 180, "y": 90, "uvlock": false },
+        "facing=west,half=top,shape=inner_left":  { "model": "birch_inner_stairs", "x": 180, "y": 270, "uvlock": false },
+        "facing=south,half=top,shape=inner_left": { "model": "birch_inner_stairs", "x": 180, "y": 180, "uvlock": false },
+        "facing=north,half=top,shape=inner_left": { "model": "birch_inner_stairs", "x": 180, "uvlock": false }
+    }
+}</value>
+  </data>
+  <data name="MiniSkinJson_Nor" xml:space="preserve">
+    <value>{
+    "__creator": "IceLitty",
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "skin": "blocks/skin"
+    },
+    "elements": [
+        {
+            "from": [6,0,7],
+            "to": [8,2,9],
+            "faces": {
+                "up": {
+                    "uv": [1,4,2,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [2,5,3,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,5,1,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [2,5,3,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [3,5,4,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [1,5,2,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [6,2,7],
+            "to": [10,8,9],
+            "faces": {
+                "up": {
+                    "uv": [5,4,7,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [7,4,9,5],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,5,5,7.75],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [7,5,8,7.75],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [8,5,10,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,5,7,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [8,0,7],
+            "to": [10,2,9],
+            "faces": {
+                "up": {
+                    "uv": [5,12,6,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,13,7,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,13,5,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [6,13,7,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [7,13,8,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,13,6,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [10,3,7],
+            "to": [12,8,9],
+            "faces": {
+                "up": {
+                    "uv": [9,12,10,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [10,13,11,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [8,13,9,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [9.75,13,10.75,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [11,13,12,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [9,13,10,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [4,3,7],
+            "to": [6,8,9],
+            "faces": {
+                "up": {
+                    "uv": [11,4,12,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [12,5,13,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [10,5,11,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [11.75,5,12.75,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [13,5,14,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [11,5,12,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [3,8,3],
+            "to": [13,18,13],
+            "faces": {
+                "up": {
+                    "uv": [2,0,4,2],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,2,4,0],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,2,2,4],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [4,2,6,4],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [6,2,8,4],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [2,2,4,4],
+                    "texture": "#skin"
+                }
+            }
+        }
+    ]
+}</value>
+    <comment>大头模型Steve</comment>
+  </data>
+  <data name="MiniSkinJson_Sin" xml:space="preserve">
+    <value>{
+    "__creator": "IceLitty",
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "skin": "blocks/skin_sin"
+    },
+    "elements": [
+        {
+            "from": [6,0,7],
+            "to": [8,2,9],
+            "faces": {
+                "up": {
+                    "uv": [1,4,2,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [2,5,3,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,5,1,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [2,5,3,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [3,5,4,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [1,5,2,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [6,2,7],
+            "to": [10,8,9],
+            "faces": {
+                "up": {
+                    "uv": [5,4,7,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [7,4,9,5],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,5,5,7.75],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [7,5,8,7.75],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [8,5,10,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,5,7,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [8,0,7],
+            "to": [10,2,9],
+            "faces": {
+                "up": {
+                    "uv": [5,12,6,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,13,7,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,13,5,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [6,13,7,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [7,13,8,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,13,6,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [10,3,7],
+            "to": [11,8,9],
+            "faces": {
+                "up": {
+                    "uv": [9,12,9.75,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [9.75,13,10.5,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [8,13,9,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [9.75,13,10.75,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [10.75,13,11.5,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [9,13,9.75,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [5,3,7],
+            "to": [6,8,9],
+            "faces": {
+                "up": {
+                    "uv": [11,4,11.75,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [11.75,5,12.5,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [10,5,11,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [11.75,5,12.75,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [12.75,5,13.5,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [11,5,11.75,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [3,8,3],
+            "to": [13,18,13],
+            "faces": {
+                "up": {
+                    "uv": [2,0,4,2],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,2,4,0],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,2,2,4],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [4,2,6,4],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [6,2,8,4],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [2,2,4,4],
+                    "texture": "#skin"
+                }
+            }
+        }
+    ]
+}</value>
+    <comment>大头模型Alex</comment>
+  </data>
+  <data name="packMcmeta" xml:space="preserve">
+    <value>{
+  "pack": {
+    "pack_format": 1,
+    "description": "Auto Create Skin Models. __by IceLitty"
+  }
+}</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="skin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkinJson_Nor" xml:space="preserve">
+    <value>{
+    "__creator": "IceLitty",
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "skin": "blocks/skin"
+    },
+    "elements": [
+        {
+            "from": [4,-0.5,6],
+            "to": [8,11.5,10],
+            "__comment": "Right Leg",
+            "faces": {
+                "up": {
+                    "uv": [1,4,2,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [2,5,3,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,5,1,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [2,5,3,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [3,5,4,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [1,5,2,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [4,11.5,6],
+            "to": [12,23.5,10],
+            "__comment": "Body",
+            "faces": {
+                "up": {
+                    "uv": [5,4,7,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [7,4,9,5],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,5,5,7.75],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [7,5,8,7.75],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [8,5,10,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,5,7,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [8,-0.5,6],
+            "to": [12,11.5,10],
+            "__comment": "Left Leg",
+            "faces": {
+                "up": {
+                    "uv": [5,12,6,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,13,7,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,13,5,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [6,13,7,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [7,13,8,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,13,6,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [12,11.5,6],
+            "to": [16,23.5,10],
+            "__comment": "Left Arm",
+            "faces": {
+                "up": {
+                    "uv": [9,12,10,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [10,13,11,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [8,13,9,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [10,13,11,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [11,13,12,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [9,13,10,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [0,11.5,6],
+            "to": [4,23.5,10],
+            "__comment": "Right Arm",
+            "faces": {
+                "up": {
+                    "uv": [11,4,12,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [12,5,13,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [10,5,11,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [12,5,13,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [13,5,14,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [11,5,12,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [4,23.5,4],
+            "to": [12,31.5,12],
+            "__comment": "Head",
+            "faces": {
+                "up": {
+                    "uv": [2,0,4,2],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,2,4,0],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,2,2,4],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [4,2,6,4],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [6,2,8,4],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [2,2,4,4],
+                    "texture": "#skin"
+                }
+            }
+        }]
+}</value>
+    <comment>Json格式的模型Steve，无第二层</comment>
+  </data>
+  <data name="SkinJson_Sin" xml:space="preserve">
+    <value>{
+    "__creator": "IceLitty",
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "skin": "blocks/skin_sin"
+    },
+    "elements": [
+        {
+            "from": [4,-0.5,6],
+            "to": [8,11.5,10],
+            "__comment": "Right Leg",
+            "faces": {
+                "up": {
+                    "uv": [1,4,2,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [2,5,3,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,5,1,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [2,5,3,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [3,5,4,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [1,5,2,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [4,11.5,6],
+            "to": [12,23.5,10],
+            "__comment": "Body",
+            "faces": {
+                "up": {
+                    "uv": [5,4,7,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [7,4,9,5],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,5,5,7.75],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [7,5,8,7.75],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [8,5,10,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,5,7,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [8,-0.5,6],
+            "to": [12,11.5,10],
+            "__comment": "Left Leg",
+            "faces": {
+                "up": {
+                    "uv": [5,12,6,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,13,7,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [4,13,5,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [6,13,7,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [7,13,8,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [5,13,6,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [12,11.5,6],
+            "to": [15,23.5,10],
+            "__comment": "Left Arm",
+            "faces": {
+                "up": {
+                    "uv": [9,12,9.75,13],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [9.75,13,10.5,12],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [8,13,9,16],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [9.75,13,10.75,16],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [10.75,13,11.5,16],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [9,13,9.75,16],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [1,11.5,6],
+            "to": [4,23.5,10],
+            "__comment": "Right Arm",
+            "faces": {
+                "up": {
+                    "uv": [11,4,11.75,5],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [11.75,5,12.5,4],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [10,5,11,8],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [11.75,5,12.75,8],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [12.75,5,13.5,8],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [11,5,11.75,8],
+                    "texture": "#skin"
+                }
+            }
+        },
+        {
+            "from": [4,23.5,4],
+            "to": [12,31.5,12],
+            "__comment": "Head",
+            "faces": {
+                "up": {
+                    "uv": [2,0,4,2],
+                    "texture": "#skin"
+                },
+                "down": {
+                    "uv": [6,2,4,0],
+                    "texture": "#skin"
+                },
+                "west": {
+                    "uv": [0,2,2,4],
+                    "texture": "#skin"
+                },
+                "east": {
+                    "uv": [4,2,6,4],
+                    "texture": "#skin"
+                },
+                "north": {
+                    "uv": [6,2,8,4],
+                    "texture": "#skin"
+                },
+                "south": {
+                    "uv": [2,2,4,4],
+                    "texture": "#skin"
+                }
+            }
+        }]
+}</value>
+    <comment>Json格式的模型Alex，无第二层</comment>
+  </data>
+  <data name="skin_sin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skin_sin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
