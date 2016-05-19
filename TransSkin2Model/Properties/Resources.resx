@@ -726,7 +726,7 @@
   <data name="packMcmeta" xml:space="preserve">
     <value>{
   "pack": {
-    "pack_format": 1,
+    "pack_format": 2,
     "description": "Auto Create Skin Models. __by IceLitty"
   }
 }</value>

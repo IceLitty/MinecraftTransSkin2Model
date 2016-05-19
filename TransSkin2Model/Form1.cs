@@ -707,8 +707,8 @@ namespace TransSkin2Model
                     case "HeadRight":
                         double[] HeadRight = { 12, 2, 12.25, 2.25, 13, 17, 3, 48, 8, 8, 8, 13, 8, 12 };
                         return HeadRight;
-                    case "HeadBack":
-                        double[] HeadBack = { 14, 2, 14.25, 2.25, 3, 17, 2, 56, 8, 8, 8, 12, 8, 2 };
+                    case "HeadBack": //fix 14 -> 15.75 14.25 -> 16
+                        double[] HeadBack = { 15.75, 2, 16, 2.25, 3, 17, 2, 56, 8, 8, 8, 12, 8, 2 };
                         return HeadBack;
                     case "HeadTop":
                         double[] HeadTop = { 10, 0, 10.25, 0.25, 3, 18, 3, 40, 0, 8, 8, 12, 18, 12 };
@@ -725,8 +725,8 @@ namespace TransSkin2Model
                     case "BodyRight":
                         double[] BodyRight = { 7, 9, 7.25, 9.25, 10, 7, 7, 28, 36, 4, 12, 10, 2, 8 };
                         return BodyRight;
-                    case "BodyBack":
-                        double[] BodyBack = { 8, 9, 8.25, 9.25, 6, 7, 6, 32, 36, 8, 12, 10, 3, 7 };
+                    case "BodyBack": //fix
+                        double[] BodyBack = { 9.75, 9, 10, 9.25, 6, 7, 6, 32, 36, 8, 12, 10, 3, 7 };
                         return BodyBack;
                     case "BodyTop":
                         double[] BodyTop = { 5, 8, 5.25, 8.25, 6, 8, 7, 20, 32, 8, 4, 9, 8, 8 };
@@ -743,8 +743,8 @@ namespace TransSkin2Model
                     case "SLArmRight":
                         double[] SLArmRight = { 14, 13, 14.25, 13.25, 12, 7, 7, 56, 52, 4, 12, 12, 3, 8 };
                         return SLArmRight;
-                    case "SLArmBack":
-                        double[] SLArmBack = { 15, 13, 15.25, 13.25, 10, 7, 6, 60, 52, 4, 12, 11, 3, 6 };
+                    case "SLArmBack": //fix
+                        double[] SLArmBack = { 16.75, 13, 17, 13.25, 10, 7, 6, 60, 52, 4, 12, 11, 3, 6 };
                         return SLArmBack;
                     case "SLArmTop":
                         double[] SLArmTop = { 13, 12, 13.25, 12.25, 10, 8, 7, 52, 48, 4, 4, 11, 8, 8 };
@@ -761,8 +761,8 @@ namespace TransSkin2Model
                     case "SRArmRight":
                         double[] SRArmRight = { 12, 9, 12.25, 9.25, 6, 7, 7, 48, 36, 4, 12, 6, 3, 8 };
                         return SRArmRight;
-                    case "SRArmBack":
-                        double[] SRArmBack = { 13, 9, 13.25, 9.25, 4, 7, 6, 52, 36, 4, 12, 5, 3, 6 };
+                    case "SRArmBack": //fix
+                        double[] SRArmBack = { 14.75, 9, 15, 9.25, 4, 7, 6, 52, 36, 4, 12, 5, 3, 6 };
                         return SRArmBack;
                     case "SRArmTop":
                         double[] SRArmTop = { 11, 8, 11.25, 8.25, 4, 8, 7, 44, 32, 4, 4, 5, 8, 8 };
@@ -779,8 +779,8 @@ namespace TransSkin2Model
                     case "LLegRight":
                         double[] LLegRight = { 2, 13, 2.25, 13.25, 10, 1, 7, 8, 52, 4, 12, 10, 0, 8 };
                         return LLegRight;
-                    case "LLegBack":
-                        double[] LLegBack = { 3, 13, 3.25, 13.25, 8, 1, 6, 12, 52, 4, 12, 9, 0, 6 };
+                    case "LLegBack": //fix
+                        double[] LLegBack = { 4.75, 13, 5, 13.25, 8, 1, 6, 12, 52, 4, 12, 9, 0, 6 };
                         return LLegBack;
                     case "LLegTop":
                         double[] LLegTop = { 1, 12, 1.25, 12.25, 8, 2, 7, 4, 48, 4, 4, 9, 2, 8 };
@@ -797,8 +797,8 @@ namespace TransSkin2Model
                     case "RLegRight":
                         double[] RLegRight = { 2, 9, 2.25, 9.25, 8, 1, 7, 8, 36, 4, 12, 8, 0, 8 };
                         return RLegRight;
-                    case "RLegBack":
-                        double[] RLegBack = { 3, 9, 3.25, 9.25, 6, 1, 6, 12, 36, 4, 12, 7, 0, 6 };
+                    case "RLegBack": //fix
+                        double[] RLegBack = { 4.75, 9, 5, 9.25, 6, 1, 6, 12, 36, 4, 12, 7, 0, 6 };
                         return RLegBack;
                     case "RLegTop":
                         double[] RLegTop = { 1, 8, 1.25, 8.25, 6, 2, 7, 4, 32, 4, 4, 7, 2, 8 };
@@ -815,8 +815,8 @@ namespace TransSkin2Model
                     case "ALArmRight":
                         double[] ALArmRight = { 13.75, 13, 14, 13.25, 11, 7, 7, 55, 52, 4, 12, 11, 3, 8 };
                         return ALArmRight;
-                    case "ALArmBack":
-                        double[] ALArmBack = { 14.75, 13, 15, 13.25, 10, 7, 6, 59, 52, 3, 12, 10, 3, 6 };
+                    case "ALArmBack": //fix
+                        double[] ALArmBack = { 16.5, 13, 16.75, 13.25, 10, 7, 6, 59, 52, 3, 12, 10, 3, 6 };
                         return ALArmBack;
                     case "ALArmTop":
                         double[] ALArmTop = { 13, 12, 13.25, 12.25, 10, 8, 7, 52, 48, 3, 4, 10, 8, 8 };
@@ -833,8 +833,8 @@ namespace TransSkin2Model
                     case "ARArmRight":
                         double[] ARArmRight = { 11.75, 9, 12, 9.25, 6, 7, 7, 47, 36, 4, 12, 6, 3, 8 };
                         return ARArmRight;
-                    case "ARArmBack":
-                        double[] ARArmBack = { 12.75, 9, 13, 9.25, 5, 7, 6, 51, 36, 3, 12, 5, 3, 6 };
+                    case "ARArmBack": //fix
+                        double[] ARArmBack = { 14.5, 9, 14.75, 9.25, 5, 7, 6, 51, 36, 3, 12, 5, 3, 6 };
                         return ARArmBack;
                     case "ARArmTop":
                         double[] ARArmTop = { 11, 8, 11.25, 8.25, 5, 8, 7, 44, 32, 3, 4, 5, 8, 8 };
@@ -851,6 +851,10 @@ namespace TransSkin2Model
 
         private JObject getAFace(string whichFace, int Width, int Height, bool whichMode)  //0-7
         {
+            //第二层的突出像素数
+            double secLayerOut = 0.5d;
+            secLayerOut = double.Parse(secondLayerOut.Value.ToString());
+
             double[] index = backIndex(whichFace, whichMode);
             //uv
             double imageX = index[0] + (Width - index[7]) * 0.25, imageY = index[1] + (Height - index[8]) * 0.25, imageH = index[2] + (Width - index[7]) * 0.25, imageW = index[3] + (Height - index[8]) * 0.25;
@@ -865,7 +869,7 @@ namespace TransSkin2Model
                 if (passStr == "eft")
                 {
                     //左侧
-                    fromX = index[4] + 0.5;
+                    fromX = index[4] + secLayerOut;
                     fromY = index[5] - (Height - index[8]);
                     fromZ = index[6] + (Width - index[7]);
                     toX = fromX + 1;
@@ -877,7 +881,7 @@ namespace TransSkin2Model
                     //前面
                     fromX = index[4] + (Width - index[7]);
                     fromY = index[5] - (Height - index[8]);
-                    fromZ = index[6] - 0.5;
+                    fromZ = index[6] - secLayerOut;
                     toX = fromX + 1;
                     toY = fromY + 1;
                     toZ = fromZ + 1;
@@ -885,7 +889,7 @@ namespace TransSkin2Model
                 else if (passStr == "ght")
                 {
                     //右侧
-                    fromX = index[4] - 0.5;
+                    fromX = index[4] - secLayerOut;
                     fromY = index[5] - (Height - index[8]);
                     fromZ = index[6] - (Width - index[7]);
                     toX = fromX + 1;
@@ -897,7 +901,7 @@ namespace TransSkin2Model
                     //背面
                     fromX = index[4] - (Width - index[7]);
                     fromY = index[5] - (Height - index[8]);
-                    fromZ = index[6] + 0.5;
+                    fromZ = index[6] + secLayerOut;
                     toX = fromX + 1;
                     toY = fromY + 1;
                     toZ = fromZ + 1;
@@ -916,7 +920,7 @@ namespace TransSkin2Model
                 {
                     //底部
                     fromX = index[4] - (Height - index[8]);
-                    fromY = index[5] + 0.5;
+                    fromY = index[5] + secLayerOut;
                     fromZ = index[6] + (Width - index[7]);
                     toX = fromX + 1;
                     toY = fromY + 1;
@@ -932,7 +936,7 @@ namespace TransSkin2Model
                 if (passStr == "eft")
                 {
                     //左侧
-                    double sizeX = 0.5;
+                    double sizeX = secLayerOut;
                     double sizeY = (Math.Abs(index[12] - index[5]) + 1) / index[10];
                     double sizeZ = (Math.Abs(index[13] - index[6]) + 1) / index[9];
                     fromX = index[4] + (1 - sizeX);
@@ -947,7 +951,7 @@ namespace TransSkin2Model
                     //前面
                     double sizeX = (Math.Abs(index[11] - index[4]) + 1) / index[9];
                     double sizeY = (Math.Abs(index[12] - index[5]) + 1) / index[10];
-                    double sizeZ = 0.5;
+                    double sizeZ = secLayerOut;
                     fromX = index[4] + sizeX * (Width - index[7]);
                     fromY = index[5] - sizeY * (Height - index[8]);
                     fromZ = index[6];
@@ -957,8 +961,14 @@ namespace TransSkin2Model
                 }
                 else if (passStr == "ght")
                 {
+                    //uv
+                    imageX = index[0] - (Width - index[7]) * 0.25;
+                    imageY = index[1] + (Height - index[8]) * 0.25;
+                    imageH = index[2] - (Width - index[7]) * 0.25;
+                    imageW = index[3] + (Height - index[8]) * 0.25;
+                    uv = "\"uv\": [" + imageX + "," + imageY + "," + imageH + "," + imageW + "],\"texture\": \"#skin\"";
                     //右侧
-                    double sizeX = 0.5;
+                    double sizeX = secLayerOut;
                     double sizeY = (Math.Abs(index[12] - index[5]) + 1) / index[10];
                     double sizeZ = (Math.Abs(index[13] - index[6]) + 1) / index[9];
                     fromX = index[4];
@@ -970,10 +980,16 @@ namespace TransSkin2Model
                 }
                 else if (passStr == "ack")
                 {
+                    //uv
+                    imageX = index[0] - (Width - index[7]) * 0.25;
+                    imageY = index[1] + (Height - index[8]) * 0.25;
+                    imageH = index[2] - (Width - index[7]) * 0.25;
+                    imageW = index[3] + (Height - index[8]) * 0.25;
+                    uv = "\"uv\": [" + imageX + "," + imageY + "," + imageH + "," + imageW + "],\"texture\": \"#skin\"";
                     //背面
                     double sizeX = (Math.Abs(index[11] - index[4]) + 1) / index[9];
                     double sizeY = (Math.Abs(index[12] - index[5]) + 1) / index[10];
-                    double sizeZ = 0.5;
+                    double sizeZ = secLayerOut;
                     fromX = index[4] + sizeX * (Width - index[7]);//-
                     fromY = index[5] - sizeY * (Height - index[8]);
                     fromZ = index[6] + (1 - sizeZ);
@@ -985,7 +1001,7 @@ namespace TransSkin2Model
                 {
                     //顶部
                     double sizeX = (Math.Abs(index[11] - index[4]) + 1) / index[9];
-                    double sizeY = 0.5;
+                    double sizeY = secLayerOut;
                     double sizeZ = (Math.Abs(index[13] - index[6]) + 1) / index[10];
                     fromX = index[4] + sizeX * (Width - index[7]);
                     fromY = index[5];
@@ -998,13 +1014,14 @@ namespace TransSkin2Model
                 {
                     //底部
                     double sizeX = (Math.Abs(index[11] - index[4]) + 1) / index[10];
-                    double sizeY = 0.5;
+                    double sizeY = secLayerOut;
                     double sizeZ = (Math.Abs(index[13] - index[6]) + 1) / index[9];
                     fromX = index[4] + sizeX * (Height - index[8]);//-
-                    fromY = index[5] + (1 - sizeY);
+                    //fromY = index[5] + (1 - sizeY);
+                    fromY = index[5];
                     fromZ = index[6] + sizeZ * (Width - index[7]);
                     toX = fromX + sizeX;
-                    toY = fromY + sizeY;
+                    toY = fromY + (1 - sizeY);
                     toZ = fromZ + sizeZ;
                 }
             }
@@ -1046,11 +1063,11 @@ namespace TransSkin2Model
             {
                 //大头娃娃1格高
                 string passStr = __comment.Substring(__comment.Length - 3, 3);
-                if (passStr == "ght" || passStr == "ack" || passStr == "tom")
+                if (passStr == "ght" || passStr == "tom")
                 {
-                    for (int y = skinY + skinHeight; y < skinY; y--)
+                    for (int y = skinY; y < skinY + skinHeight; y++)
                     {
-                        for (int x = skinX + skinWeight; x < skinX; x--)
+                        for (int x = skinX + skinWeight; x > skinX; x--)
                         {
                             if (GetPixelColor(skin, x, y) != 0)
                             {
@@ -1116,7 +1133,7 @@ namespace TransSkin2Model
         private void osAbout_Click(object sender, EventArgs e)
         {
             aboutClicked++;
-            MessageBox.Show("感谢您的使用！如需联系请优先使用MCBBS或QQ\r\n具体联系方式请看贴内留言或MCH（上一个项目）的关于部分。", "命中：" + aboutClicked);
+            MessageBox.Show("感谢您的使用！如需联系请优先使用MCBBS或QQ\r\n具体联系方式请贴内留言或查看MCH（上一个项目）的关于部分。", "命中：" + aboutClicked);
             if (aboutClicked == 2)
             {
                 MessageBox.Show("诶呀不要戳了_(:3」∠)_");
@@ -1160,209 +1177,4 @@ namespace TransSkin2Model
         //    }          
         //}
     }
-
-    // zip/unzip code by http://www.soaspx.com/dotnet/csharp/csharp_20111019_8164.html
-    // checked
-    /// <summary>
-    /// Zip压缩与解压缩 
-    /// </summary>
-    //public class ZipHelper
-    //{
-    //    /// <summary>
-    //    /// 压缩单个文件
-    //    /// </summary>
-    //    /// <param name="fileToZip">要压缩的文件</param>
-    //    /// <param name="zipedFile">压缩后的文件</param>
-    //    /// <param name="compressionLevel">压缩等级</param>
-    //    /// <param name="blockSize">每次写入大小</param>
-    //    public void ZipFile(string fileToZip, string zipedFile, int compressionLevel, int blockSize)
-    //    {
-    //        //如果文件没有找到，则报错
-    //        if (!File.Exists(fileToZip))
-    //        {
-    //            throw new FileNotFoundException("指定要压缩的文件: " + fileToZip + " 不存在!");
-    //        }
-
-    //        using (FileStream ZipFile = File.Create(zipedFile))
-    //        {
-    //            using (ZipOutputStream ZipStream = new ZipOutputStream(ZipFile))
-    //            {
-    //                using (FileStream StreamToZip = new FileStream(fileToZip, FileMode.Open, FileAccess.Read))
-    //                {
-    //                    string fileName = fileToZip.Substring(fileToZip.LastIndexOf("\\") + 1);
-    //                    ZipEntry ZipEntry = new ZipEntry(fileName);
-    //                    ZipStream.PutNextEntry(ZipEntry);
-    //                    ZipStream.SetLevel(compressionLevel);
-    //                    byte[] buffer = new byte[blockSize];
-    //                    int sizeRead = 0;
-    //                    try
-    //                    {
-    //                        do
-    //                        {
-    //                            sizeRead = StreamToZip.Read(buffer, 0, buffer.Length);
-    //                            ZipStream.Write(buffer, 0, sizeRead);
-    //                        }
-    //                        while (sizeRead > 0);
-    //                    }
-    //                    catch (System.Exception ex)
-    //                    {
-    //                        throw ex;
-    //                    }
-    //                    StreamToZip.Close();
-    //                }
-    //                ZipStream.Finish();
-    //                ZipStream.Close();
-    //            }
-    //            ZipFile.Close();
-    //        }
-    //    }
-
-    //    /// <summary>
-    //    /// 压缩单个文件
-    //    /// </summary>
-    //    /// <param name="fileToZip">要进行压缩的文件名</param>
-    //    /// <param name="zipedFile">压缩后生成的压缩文件名</param>
-    //    public void ZipFile(string fileToZip, string zipedFile)
-    //    {
-    //        //如果文件没有找到，则报错
-    //        if (!File.Exists(fileToZip))
-    //        {
-    //            throw new FileNotFoundException("指定要压缩的文件: " + fileToZip + " 不存在!");
-    //        }
-
-    //        using (FileStream fs = File.OpenRead(fileToZip))
-    //        {
-    //            byte[] buffer = new byte[fs.Length];
-    //            fs.Read(buffer, 0, buffer.Length);
-    //            fs.Close();
-    //            using (FileStream ZipFile = File.Create(zipedFile))
-    //            {
-    //                using (ZipOutputStream ZipStream = new ZipOutputStream(ZipFile))
-    //                {
-    //                    string fileName = fileToZip.Substring(fileToZip.LastIndexOf("\\") + 1);
-    //                    ZipEntry ZipEntry = new ZipEntry(fileName);
-    //                    ZipStream.PutNextEntry(ZipEntry);
-    //                    ZipStream.SetLevel(5);
-    //                    ZipStream.Write(buffer, 0, buffer.Length);
-    //                    ZipStream.Finish();
-    //                    ZipStream.Close();
-    //                }
-    //            }
-    //        }
-    //    }
-
-    //    /// <summary>
-    //    /// 压缩多层目录
-    //    /// </summary>
-    //    /// <param name="strDirectory">The directory.</param>
-    //    /// <param name="zipedFile">The ziped file.</param>
-    //    public void ZipFileDirectory(string strDirectory, string zipedFile)
-    //    {
-    //        using (FileStream ZipFile = File.Create(zipedFile))
-    //        {
-    //            using (ZipOutputStream s = new ZipOutputStream(ZipFile))
-    //            {
-    //                ZipSetp(strDirectory, s, "");
-    //            }
-    //        }
-    //    }
-
-    //    /// <summary>
-    //    /// 递归遍历目录
-    //    /// </summary>
-    //    /// <param name="strDirectory">The directory.</param>
-    //    /// <param name="s">The ZipOutputStream Object.</param>
-    //    /// <param name="parentPath">The parent path.</param>
-    //    private void ZipSetp(string strDirectory, ZipOutputStream s, string parentPath)
-    //    {
-    //        if (strDirectory[strDirectory.Length - 1] != Path.DirectorySeparatorChar)
-    //        {
-    //            strDirectory += Path.DirectorySeparatorChar;
-    //        }
-    //        Crc32 crc = new Crc32();
-    //        string[] filenames = Directory.GetFileSystemEntries(strDirectory);
-    //        foreach (string file in filenames)// 遍历所有的文件和目录
-    //        {
-    //            if (Directory.Exists(file))// 先当作目录处理如果存在这个目录就递归Copy该目录下面的文件
-    //            {
-    //                string pPath = parentPath;
-    //                pPath += file.Substring(file.LastIndexOf("\\") + 1);
-    //                pPath += "\\";
-    //                ZipSetp(file, s, pPath);
-    //            }
-
-    //            else // 否则直接压缩文件
-    //            {
-    //                //打开压缩文件
-    //                using (FileStream fs = File.OpenRead(file))
-    //                {
-    //                    byte[] buffer = new byte[fs.Length];
-    //                    fs.Read(buffer, 0, buffer.Length);
-    //                    string fileName = parentPath + file.Substring(file.LastIndexOf("\\") + 1);
-    //                    ZipEntry entry = new ZipEntry(fileName);
-    //                    entry.DateTime = DateTime.Now;
-    //                    entry.Size = fs.Length;
-    //                    fs.Close();
-    //                    crc.Reset();
-    //                    crc.Update(buffer);
-    //                    entry.Crc = crc.Value;
-    //                    s.PutNextEntry(entry);
-    //                    s.Write(buffer, 0, buffer.Length);
-    //                }
-    //            }
-    //        }
-    //    }
-
-    //    /// <summary>
-    //    /// 解压缩一个 zip 文件。
-    //    /// </summary>
-    //    /// <param name="zipedFile">The ziped file.</param>
-    //    /// <param name="strDirectory">The STR directory.</param>
-    //    /// <param name="password">zip 文件的密码。</param>
-    //    /// <param name="overWrite">是否覆盖已存在的文件。</param>
-    //    public void UnZip(string zipedFile, string strDirectory, string password, bool overWrite)
-    //    {
-    //        if (strDirectory == "")
-    //            strDirectory = Directory.GetCurrentDirectory();
-    //        if (!strDirectory.EndsWith("\\"))
-    //            strDirectory = strDirectory + "\\";
-
-    //        using (ZipInputStream s = new ZipInputStream(File.OpenRead(zipedFile)))
-    //        {
-    //            s.Password = password;
-    //            ZipEntry theEntry;
-    //            while ((theEntry = s.GetNextEntry()) != null)
-    //            {
-    //                string directoryName = "";
-    //                string pathToZip = "";
-    //                pathToZip = theEntry.Name;
-    //                if (pathToZip != "")
-    //                    directoryName = Path.GetDirectoryName(pathToZip) + "\\";
-    //                string fileName = Path.GetFileName(pathToZip);
-    //                Directory.CreateDirectory(strDirectory + directoryName);
-    //                if (fileName != "")
-    //                {
-    //                    if ((File.Exists(strDirectory + directoryName + fileName) && overWrite) || (!File.Exists(strDirectory + directoryName + fileName)))
-    //                    {
-    //                        using (FileStream streamWriter = File.Create(strDirectory + directoryName + fileName))
-    //                        {
-    //                            int size = 2048;
-    //                            byte[] data = new byte[2048];
-    //                            while (true)
-    //                            {
-    //                                size = s.Read(data, 0, data.Length);
-    //                                if (size > 0)
-    //                                    streamWriter.Write(data, 0, size);
-    //                                else
-    //                                    break;
-    //                            }
-    //                            streamWriter.Close();
-    //                        }
-    //                    }
-    //                }
-    //            }
-    //            s.Close();
-    //        }
-    //    }
-    //}
 }
